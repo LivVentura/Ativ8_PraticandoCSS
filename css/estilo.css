@@ -1,0 +1,35 @@
+header {
+    background-color:plum;
+    color:rgb(75, 2, 75);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 2px solid purple
+}
+h2 {
+    color:rgb(75, 2, 75);
+    font-size: 25px;
+}
+body {
+    background-color:rgb(240, 216, 240);
+    margin: 0px;
+    align-items: center;
+}
+ main{
+    display: flex;
+    flex-direction: column;
+  
+ }
+.sectionUm{
+    background-color:plum;
+    color:rgb(75, 2, 75);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+}
+.sectionUm img{
+    height: 500px;
+    width: 500px;
+}
