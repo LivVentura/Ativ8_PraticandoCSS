@@ -2,34 +2,71 @@ header {
     background-color:plum;
     color:rgb(75, 2, 75);
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     padding: 10px;
     border-bottom: 2px solid purple
 }
+header:hover{
+    color:rgb(144, 38, 148);
+    text-decoration: underline;
+}
 h2 {
-    color:rgb(75, 2, 75);
+    color:rgb(75,2,75);
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 body {
-    background-color:rgb(240, 216, 240);
+    background-color:rgb(247, 230, 247);
     margin: 0px;
+    text-align:center;
     align-items: center;
 }
  main{
     display: flex;
     flex-direction: column;
+    align-items: center;
   
  }
 .sectionUm{
-    background-color:plum;
-    color:rgb(75, 2, 75);
     text-align: center;
     padding: 20px;
-    border-radius: 15px;
-    width: 70%;
+    border-radius: 20px;
+    max-width: 750px;
+}
+.sectionUm h2{
+    color:rgb(241, 226, 241);
+}
+.sectionUm p{
+    color:rgb(241, 226, 241);
 }
 .sectionUm img{
     height: 500px;
     width: 500px;
+    border-radius: 20px;
+}
+#sobreAutora {
+    background-color:rgb(73, 10, 73);
+}
+#obras {
+    background-color:rgb(156, 144, 167)
+}
+.sectionDois{
+     align-items: center;
+     padding: 20px;
+     border-radius: 20px;
+     margin-top:40px;
+     max-width: 750px;
+}
+#fatos {
+    background-color:rgb(255, 255, 255);
+}
+#melhoresObras {
+    background-color:rgb(255, 255, 255);
+}
+footer{
+    background-color: plum;
+    padding: 2px;
+    margin-top: 45px;
+    border-top: 2px solid purple;
 }
