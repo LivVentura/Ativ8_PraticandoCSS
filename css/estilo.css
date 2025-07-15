@@ -30,15 +30,16 @@ body {
  }
 .sectionUm{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     border-radius: 20px;
-    max-width: 750px;
+    width: 750px;
 }
 .sectionUm h2{
-    color:rgb(241, 226, 241);
+    color:rgb(242, 235, 243);
 }
 .sectionUm p{
-    color:rgb(241, 226, 241);
+    color:rgb(242, 235, 243);
 }
 .sectionUm img{
     height: 500px;
@@ -49,14 +50,14 @@ body {
     background-color:rgb(73, 10, 73);
 }
 #obras {
-    background-color:rgb(156, 144, 167)
+    background-color:rgb(167, 138, 194)
 }
 .sectionDois{
-     align-items: center;
-     padding: 20px;
-     border-radius: 20px;
-     margin-top:40px;
-     max-width: 750px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top:40px;
+    width: 750px;
 }
 #fatos {
     background-color:rgb(255, 255, 255);
